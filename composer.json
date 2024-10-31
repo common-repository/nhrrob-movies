@@ -1,0 +1,17 @@
+{
+    "name": "nhrrob/nhrrob-movies",
+    "description": "A WordPress plugin to manage movies using Laravel's Eloquent ORM.",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/database": "^9.0",
+        "illuminate/events": "^9.0",
+        "jenssegers/blade": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nhrrob\\Movies\\": "app/",
+            "Nhrrob\\Movies\\Database\\": "database/"
+        }
+    }
+}
